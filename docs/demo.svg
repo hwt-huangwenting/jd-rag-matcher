@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500" role="img" aria-label="JD 匹配问答器真实运行输出">
+  <rect width="1000" height="500" rx="12" fill="#0d1117"/>
+  <rect x="0.5" y="0.5" width="999" height="499" rx="12" fill="none" stroke="#30363d"/>
+
+  <rect x="0" y="0" width="1000" height="36" rx="12" fill="#161b22"/>
+  <rect x="0" y="24" width="1000" height="12" fill="#161b22"/>
+  <circle cx="22" cy="18" r="6" fill="#ff5f56"/>
+  <circle cx="42" cy="18" r="6" fill="#ffbd2e"/>
+  <circle cx="62" cy="18" r="6" fill="#27c93f"/>
+  <text x="500" y="23" text-anchor="middle" font-family="'Segoe UI','Microsoft YaHei',sans-serif" font-size="12" fill="#8b949e">PowerShell — jd-rag-matcher</text>
+
+  <g font-family="'Cascadia Mono','Consolas','Microsoft YaHei',monospace" font-size="14" fill="#c9d1d9">
+    <text x="28" y="68"><tspan fill="#7ee787">PS&gt;</tspan> python main.py ask "这个岗位要求 RAG 和 Agent 经验，我匹配吗"</text>
+    <text x="28" y="94" fill="#8b949e">检索到 6 个文本块（top-k=6，阈值=0.52）</text>
+
+    <text x="28" y="130">回答</text>
+    <text x="28" y="150" fill="#484f58">----</text>
+    <text x="28" y="176">岗位要求：AI 应用开发实习生岗位要求熟悉 OpenClaw 或类似的 Agent 框架 <tspan fill="#79c0ff">[4]</tspan>。</text>
+
+    <text x="28" y="212">候选人证据：候选人具备 LLM 应用开发经验，包括 Agent 编排（手写循环，非框架封装） <tspan fill="#79c0ff">[2]</tspan>。</text>
+
+    <text x="28" y="248">匹配结论与差距：候选人具备 Agent 相关经验，但未明确提及 OpenClaw 或类似框架的使用，存在一定差距。</text>
+
+    <text x="28" y="284">引用来源</text>
+    <text x="28" y="304" fill="#484f58">----</text>
+    <text x="28" y="330"><tspan fill="#79c0ff">[2]</tspan> knowledge/resume.md · 专业技能（相似度 0.6087）</text>
+    <text x="28" y="356"><tspan fill="#79c0ff">[4]</tspan> knowledge/jd/jd_ai_app.md · 任职要求（相似度 0.6038）</text>
+
+    <text x="28" y="420" fill="#7ee787">PS&gt;</text>
+    <rect x="64" y="408" width="8" height="16" fill="#c9d1d9" opacity="0.75"/>
+  </g>
+</svg>

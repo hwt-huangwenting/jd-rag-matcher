@@ -1,0 +1,52 @@
+[
+  {
+    "question": "候选人本科读什么专业，GPA 是多少？",
+    "type": "answerable",
+    "expected_sources": ["knowledge/resume.md"]
+  },
+  {
+    "question": "候选人掌握哪些 LLM 应用开发技能？",
+    "type": "answerable",
+    "expected_sources": ["knowledge/resume.md"]
+  },
+  {
+    "question": "献血业务智能服务层的 Agent 编排是怎么做的？",
+    "type": "answerable",
+    "expected_sources": ["knowledge/resume.md"]
+  },
+  {
+    "question": "候选人的项目里如何做引用溯源和拒答？",
+    "type": "answerable",
+    "expected_sources": ["knowledge/resume.md"]
+  },
+  {
+    "question": "岗位一要求熟悉什么 Agent 框架？",
+    "type": "answerable",
+    "expected_sources": ["knowledge/jd/jd_ai_app.md"]
+  },
+  {
+    "question": "岗位二每周实习几天、持续多久？",
+    "type": "answerable",
+    "expected_sources": ["knowledge/jd/jd_ai_intern.md"]
+  },
+  {
+    "question": "智能体方向岗位要求实习多久？",
+    "type": "answerable",
+    "expected_sources": ["knowledge/jd/jd_ai_agent.md"]
+  },
+  {
+    "question": "岗位二需要参与哪些 AI 应用基础设施建设？",
+    "type": "answerable",
+    "expected_sources": ["knowledge/jd/jd_ai_intern.md"]
+  },
+  {
+    "question": "公司今年年终奖发几个月？",
+    "type": "refusal",
+    "expected_sources": []
+  },
+  {
+    "question": "上海明天的天气怎么样？",
+    "type": "refusal",
+    "expected_sources": []
+  }
+]
